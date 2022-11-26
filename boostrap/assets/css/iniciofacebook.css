@@ -1,0 +1,121 @@
+*{
+    font-family: inherit;
+}
+.inicio h3{
+    font-size: 25px;
+}
+
+.inicio img{
+    justify-content: right;
+    align-items: left;
+    width: 300px;
+    font-family: inherit;
+}
+
+.container1{
+    padding: 5% 15% 5% 10%;
+}
+
+.OlvidaContrasena {
+    font-family: inherit;
+    text-align: center;
+    justify-content: center;
+}
+.idiomas {
+    gap: 15px;
+    font-size: 12px;
+}
+.extenciones {
+    gap: 15px;
+    font-size: 12px;
+}
+
+.copy{
+    font-size: 11px;
+}
+
+@media (max-width:992px) {
+    .ImagenyTexto {
+        width: 546px;
+        margin: right;
+    }
+
+    .formulario {
+        width: 367px;
+        margin: 3% auto
+    }
+
+    .contenedor2 {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:1200px) {
+    .ImagenyTexto {
+        width: 546px;
+        margin: right;
+    }
+
+    .formulario {
+        width: 367px;
+        margin: 3% auto
+    }
+
+    .contenedor2 {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:992px) {
+    .ImagenyTexto {
+        width: 546px;
+        margin: right;
+    }
+
+    .formulario {
+        width: 367px;
+        margin: 3% auto
+    }
+
+    .contenedor2 {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .ImagenyTexto {
+        width: 546px;
+        margin: right;
+    }
+
+    .formulario {
+        width: 367px;
+        margin: 3% auto
+    }
+
+    .contenedor2 {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:540px) {
+    .ImagenyTexto {
+        width: 100%;
+        margin: right;
+    }
+
+    .formulario {
+        width: 367px;
+        margin: 3% auto
+    }
+
+    .contenedor2 {
+        width: 100%;
+    }
+    
+}
+
