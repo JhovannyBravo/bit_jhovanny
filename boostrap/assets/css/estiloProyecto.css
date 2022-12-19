@@ -1,0 +1,20 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.inicioSesion{
+    margin: 50px;
+    }
+.formulario {
+    width: 600px;
+    height: auto;
+    padding: 80px;
+    background-attachment: fixed;
+}
+.check{
+    font-size:small;
+}
+.logo img{
+     margin: 80px;
+}
+

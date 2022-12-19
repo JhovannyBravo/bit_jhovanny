@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+</head>
+<body>
+    <form>
+            <label for="tipoUsuario" class="form-label">Seleccione una opción</label>
+            <select class="form-select" id="tipoUsuario" aria-label="default select example">
+                <option value="">...</option>
+                <option value="1">Profesor</option>
+                <option value="2">Alumno</option>
+                <option value="3">Invitado</option>
+              </select>
+        <div>
+            <select class="form-select" id="Documento">
+                <option selected> Tipo de Documento  </option>
+                <option value="1">C.C.</option>
+                <option value="2">T.I.</option>
+                <option value="3">C.E.</option>
+              </select>
+        </div>
+        <div class="mb-3">          
+            <input type="number" class="form-control" id="numeroDocumento" aria-describedby="emailHelp" placeholder="Numero de Documento">
+            <div id="emailHelp" class="form-text"> Ingrese documento sin puntos ni comas</div>
+        </div>
+        <div class="mb-3">
+            <input type="password" class="form-control" id="Contrasena" placeholder="Contraseña">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="RecordandoDatos ">
+          <label class="form-check-label" for="exampleCheck1">Recordar mis datos</label>
+        </div>
+        <button type="button" onclick="registro()" class="btn btn-primary" id="">Ingresar</button>
+        <div id="Ingresar"></div>
+    </form>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/accionFormulario.js"></script>
+</body>
+</html>
