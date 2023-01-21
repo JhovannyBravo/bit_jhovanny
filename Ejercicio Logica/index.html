@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="row  container mt-3 g-5">
+        <div class="col-4 ">
+            <div class="card-body">
+                <h2 class="titulo">Ejercicio 1</h2>
+                <input type="text" class="text" id="nuemroUsuario">
+                <button type="button" class="btn btn-primary" onclick="sumatoria()">Calcular</button><br>
+                <p>su resultado es :<span id="resultado"></span></p>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card-body ">
+                <h2 class="titulo">Ejercicio 2</h2>
+                <input type="text" id="numeroVerificar">
+                <button type="button" class="btn btn-primary" onclick="validar()">Validar</button><br>
+                <p>su numero es :<span id="resul"></span></p>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card-body g-5 ">
+                <h2 class="titulo">Ejercicio 3</h2>
+                <input type="text" id="Edad" >
+                <select name="" id="Genero" >
+                    <option selected="..."></option>
+                    <option value="Hombre" id="Hombre">Hombre</option>
+                    <option value="Mujer" id="Mujer">Mujer</option>
+                </select>
+                <button type="button" class="btn btn-primary" onclick="validacion()">Validar</button><br>
+                <p> Por favor reclama:<span id="reclamar"></span> </p>
+                <p> Adicionalmente reclama: <span id="reclamar2"></span></p>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="col-4">
+            <div class="card-body ">
+                <h2 class="titulo">Ejercicio 5</h2>
+                <input type="text" id="numero">
+                <input type="text" id="hasta_cuanto">
+                <button type="button" class=" btn btn-primary" onclick="multiplicar()"> Multiplicar</button>
+                <p> esta es su tabla :<span id="tabla_multiplicar"></span></p>
+            </div>
+        </div>
+
+
+        <div class="col-4">
+            <div class="card-body">
+                <h2 class="titulo">Ejercicio 6</h2>
+                <input type="text" id="promedio">
+                <button type="button" class=" btn btn-primary" onclick="descuento()"> Multiplicar</button>
+                <p> Valor de la Matricula :<span id="Matricula"></span></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https:/ /cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/code.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
