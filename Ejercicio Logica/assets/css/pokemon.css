@@ -1,0 +1,27 @@
+.navbar {
+    background: url('https://s2.glbimg.com/vDtERhJfebhErpace6yLqunNLck=/648x248/smart/filters:strip_icc()/s.glbimg.com/po/tt2/f/original/2014/09/11/0330d49e012d959f123139180a6d.jpeg');
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.cuerpo {
+    background-image: url('https://cdn.wallpapersafari.com/43/74/f1qA2g.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: local;
+    
+}
+
+.pie {
+    background-image: url('/assets/img/pokeball.gif');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: local;
+    height: 150px;
+    width: 100%;
+    color: #ffff;
+    text-align: center;
+}

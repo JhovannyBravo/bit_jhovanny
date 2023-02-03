@@ -52,19 +52,14 @@ function descuento() {
     let promedio = document.getElementById("promedio").value
     let valorMatricula = 1000000
     let Matricula1 = document.getElementById("Matricula")
-    if (promedio <= 3) {
+    if (promedio <= 2.9) {
         Matricula1.innerHTML = " " + "1000000" +  " " + "No tienes descuento"
     } else if (promedio > 3 && promedio <= 4) {
         Matricula1.innerHTML = (" " + valorMatricula*.95)
     } else {
         Matricula1.innerHTML = (" " + valorMatricula*.5)
     }
-}
-
-array.forEach(element => {
-    
-});
-
+} 
 
 
 
