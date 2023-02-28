@@ -46,15 +46,13 @@ function siguienteAnterior(data_next, data_previous) {
 pokemonApi()
 
 document.querySelector('#boton').addEventListener('click', () => {
-    let urlpokemon = "https://pokeapi.co/api/v2/pokemon/?"
+    let urlpokemon = "https://pokeapi.co/api/v2/pokemon/"
     let ir = document.querySelector('#buscador').value
 
 
-    let encuentrelo = (ir !== "") ? `picachu.name=${ir}&` : ""
+    let encuentrelo = (ir !== "") ? urlpokemon + ir : ""
 
-    let todalaapi = urlpokemon + encuentrelo
 
-    todalaapi = todalaapi.slice(0, todalaapi.length - 1)
 
-    pokemonApi(todalaapi)
+    pokemonApi(encuentrelo)
 })
